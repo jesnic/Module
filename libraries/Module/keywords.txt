@@ -1,0 +1,25 @@
+#######################################
+# Colors for Module Library
+#######################################
+
+#######################################
+# Classses (KEYWORD1)
+#######################################
+
+Module	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+create_network	KEYWORD2
+join_network	KEYWORD2
+Analog	KEYWORD2
+post_http_request	KEYWORD2
+get_http_request	KEYWORD2
+save	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+

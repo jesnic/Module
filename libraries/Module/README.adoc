@@ -1,0 +1,34 @@
+Module Library
+
+This library was developed with the main objective of making the process of coding a module easier.
+It has some functions that implements very common features, like creating or joining a network.
+
+Below all the possible functions and their uses are described:
+
+1. Module()
+
+    Class constructor.
+    Example of usage: Module object = Module();
+
+2. void create_network(String ssid, String password, String dns="")
+
+    Create a network
+
+3. void join_network(String ssid, String password, String hostname="")
+
+    Join a network
+
+4. String post_http_request(String address, String data)
+
+    Performs an HTTP POST Request. Returns payload.
+
+4. String get_http_request(String address)
+
+    Performs an HTTP GET Request. Returns payload.
+ 
+5. bool save(String path, String content);
+
+    Saves a string to a file in filesystem
+
+
+

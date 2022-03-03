@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <title>Configure Network</title>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .header {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .column {
+            float: left;
+            width: 100%;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .row:after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+
+        .btn {
+            border: line;
+            background-color: dodgerblue;
+            padding: 2% 4%;
+            font-size: 20px;
+            cursor: pointer;
+            display: inline-block;
+        }
+
+        .server {
+            color: white;
+        }
+
+        .server:hover {
+            background-color: white;
+            color: #2196F3;
+        }
+
+        .client {
+            background-color: #ff9800;
+            color: white;
+        }
+
+        .client:hover {
+            background-color: white;
+            color: #ff9800;
+        }
+
+        @media screen and (max-width:600px) {
+            .column {
+                width: 100%;
+            }
+        }
+    </style>
+
+<body>
+    <div class='header'>
+        <h1><b>
+                <font size='10' color='red'>Error!</font>
+            </b></h1>
+    </div>
+    <div class='row'>
+        <div class='column'>
+            <p> There was an error configuring the module, try again! </p>
+        </div>
+</body>
+
+</html>
